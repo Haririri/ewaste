@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 18
+names: ['IC', 'LED', 'PCBboard', 'capacitor', 'crystaloscillator', 'hole', 'inductor', 'metal', 'microcontroller', 'mousewheelencoder', 'resistor', 'resistor-capacitor', 'spring', 'switch-button', 'transformer', 'usb-type-a-connector-body', 'wire', 'wire-connector']
+
+roboflow:
+  workspace: ai-cftyz
+  project: e-waste-classification-a25jm
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ai-cftyz/e-waste-classification-a25jm/dataset/3

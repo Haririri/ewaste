@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# PyTorch / Ultralytics
+runs/
+*.ipc
+
+# Datasets
+datasets/
+data/*.zip
+data/*.tar.gz
+
+# OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
